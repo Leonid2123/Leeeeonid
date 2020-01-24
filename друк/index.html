@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Десятипальцевий Друк</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="header wow animated slideInDown">
+			<div id="tit" class="title">Десятипальцевий Друк</div>
+			<div class="progress-container wow slideInDown animated">
+    				<div class="progress-bar" id="myBar"></div>
+			</div>
+		</div>
+		<div class="useful_motivation um1">
+			<div class="title">Корисність</div>
+			<div class="list">
+				<img class="finger" src="img/finger.png">
+				<div class="box">
+					<ul>
+						<li class="li1 wow animated fadeInRight">Ви зможете друкувати набагато швидше</li>
+						<li class="li2 wow animated fadeInRight">Ви зменшите кількість помилок</li>
+						<li class="li3 wow animated fadeInRight">Ви зможете ефектно друкувати</li>
+						<li class="li4 wow animated fadeInRight">Ви зможете друкувати не дивлячись на клавіатуру</li>
+						<li class="li5 wow animated fadeInRight">Ви розвиваєте дрібну моторику рук</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="useful_motivation um2">
+			<div class="title">5 ефективних порад щодо вдосконалення навичок друку</div>
+			<img class="typing animated wow zoomIn" src="img/typing.jpg">
+			<div class="list lt2">
+			<ol>
+				<li class="lis animated wow slideInLeft">Знайдіть час для оволодіння клавіатурою та вправляння пальців. Інтенсивне навчання друку не є необхідністю. Важливо - звикнути до діяльності. <b>Подумайте про це так, ніби ви граєте в консоль чи комп'ютерну гру.</b> Ви не можете грати добре, якщо ви не володієте клавішами управління і якщо ви не витрачаєте час на гру. Ви можете читати книги, які навчать користуватися пальцями, але ці теорії будуть марними, якщо ви не зможете застосувати їх до практики.</li>
+				<li class="lis animated wow slideInLeft">Обов’язково використовуйте всі десять пальців: жоден палець не повинен простоювати, якщо ви не набираєте статтю, на якій певні пальці не присвоєні певним клавішам.</li>
+				<li class="lis animated wow slideInLeft">Розпочніть введення з невимушено: десятипальцевий друк в основному набирає текст, не дивлячись на клавіатуру. Це засвоєння клавіатури дотиком, спостереження за використанням правильних пальців для правильних клавіш. Вам, ймовірно, знадобляться тижні або місяці, щоб освоїти сенсорне введення тексту, але вам не доведеться присвячувати багато часу для друку щодня.</li>
+				<li class="lis animated wow slideInLeft">Використовуйте тести набору тексту чи інструменти для навчання: Є багато інструментів онлайн та офлайн, які можуть допомогти вам покращити швидкість набору тексту. Не соромтеся використовувати їх. Перейдіть до тих, хто пропонує вправи або тести, що містять різноманітні тексти, і надайте детальну статистику щодо швидкості набору тексту, включаючи кількість натискань клавіш, неправильно написаних слів та помилок натискання клавіш.</li>
+				<li class="lis animated wow slideInLeft">Беріть участь у клубах друку та змаганнях: інколи вам потрібна мотивація, щоб покращити швидкість набору тексту, і ви просто не можете знайти цю мотивацію самостійно. Залучення до набору клубів та конкурсів (як правило, в Інтернеті) може бути хорошим способом знайти мотивацію. Часто корисне навчання разом з іншими, хто не є новим для підвищення швидкості набору тексту.</li>
+			</ol>
+		</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript">
+		window.onscroll = function() {myFunction()};
+		function myFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+}
+	</script>
+</body>
+</html>
